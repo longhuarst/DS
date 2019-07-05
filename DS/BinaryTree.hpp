@@ -9,15 +9,15 @@
 #ifndef BinaryTree_hpp
 #define BinaryTree_hpp
 
-#include <stdio.h>
+//#include <stdio.h>
 
 
 
-#define element_type int
+//#define element_type int
 
 
 typedef struct BinaryTree{
-    element_type data;
+    int data;
     struct BinaryTree *left, *right;
 }BinaryTree;
 
@@ -34,6 +34,10 @@ void BinaryTreePostOrderNonRecurse(BinaryTree *root);
 
 
 void BinaryTreePreOrderNonRecurse2(BinaryTree *root);
+
+
+void BinaryTreeLevelOrder(BinaryTree *root);
+
 
 BinaryTree *BinaryTreeCreate(void);
 

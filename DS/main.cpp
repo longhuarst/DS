@@ -43,5 +43,13 @@ int main(int argc, const char * argv[]) {
     printf("\r\n-----     BinaryTreePostOrderNonRecurse     -----\r\n");
     BinaryTreePostOrderNonRecurse(btree);
     
+    
+    
+    printf("\r\n-----     BinaryTreeLevelOrder     -----\r\n");
+    BinaryTreeLevelOrder(btree);
+    
+    
+    
+    
     return 0;
 }

@@ -8,10 +8,22 @@
 
 #include "BinaryTree.hpp"
 
+
+#include <iostream>
+
+
 #include <stdlib.h>
 
 
 #include "Stack.hpp"
+
+
+#include <queue>
+
+
+
+
+
 
 
 
@@ -245,6 +257,46 @@ void BinaryTreePostOrderNonRecurse(BinaryTree *root)
 }
 
 
+//层次遍历
+void BinaryTreeLevelOrder(BinaryTree *root)
+{
+//    std::queue<int> myqueue;
+//    
+//    
+//    std::queue<BinaryTree*> Q;
+    
+    std::queue<BinaryTree *> Q;
+    
+    BinaryTree *pTree = root;
+    
+    while(pTree){
+        
+        printf("%d ",pTree->data);
+        
+        if (pTree->left)
+            Q.push(pTree->left);
+        
+        
+        if (pTree->right)
+            Q.push(pTree->right);
+        
+        
+        if (!Q.empty()){
+            pTree = Q.front();
+            Q.pop();
+        }else{
+            break;
+        }
+    }
+    
+    
+    
+    
+}
+
+
+
+
 /*
                             1
                    2                 3
@@ -299,24 +351,7 @@ BinaryTree *BinaryTreeCreate(void)
     
     
     
-//    if (size <= 0)
-//        return NULL;
-//
-//
-//
-//    for (int i=0;i<size;++i){
-//
-//        pTree = (BinaryTree *)malloc(sizeof(struct BinaryTree));
-//        pTree->data = i;
-//        pTree->left = NULL;
-//        pTree->right = NULL;
-//
-//
-//
-//        if (i==0)
-//            root = pTree;//根结点
-//
-//    }
+
     
     
     return node[0];
