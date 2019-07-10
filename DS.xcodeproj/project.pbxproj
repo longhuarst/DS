@@ -12,6 +12,8 @@
 		F7ACB19122CC861500C6BDC5 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7ACB18F22CC861500C6BDC5 /* BinaryTree.cpp */; };
 		F7ACB19422CC95AB00C6BDC5 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7ACB19222CC95AB00C6BDC5 /* Stack.cpp */; };
 		F7ACB19722CED57E00C6BDC5 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7ACB19522CED57E00C6BDC5 /* Queue.cpp */; };
+		F7ACB19A22D05D4200C6BDC5 /* AvlTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7ACB19822D05D4200C6BDC5 /* AvlTree.cpp */; };
+		F7ACB19D22D05E3000C6BDC5 /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7ACB19B22D05E3000C6BDC5 /* BinarySearchTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		F7ACB19322CC95AB00C6BDC5 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		F7ACB19522CED57E00C6BDC5 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
 		F7ACB19622CED57E00C6BDC5 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		F7ACB19822D05D4200C6BDC5 /* AvlTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AvlTree.cpp; sourceTree = "<group>"; };
+		F7ACB19922D05D4200C6BDC5 /* AvlTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AvlTree.hpp; sourceTree = "<group>"; };
+		F7ACB19B22D05E3000C6BDC5 /* BinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
+		F7ACB19C22D05E3000C6BDC5 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 				F7ACB19322CC95AB00C6BDC5 /* Stack.hpp */,
 				F7ACB19522CED57E00C6BDC5 /* Queue.cpp */,
 				F7ACB19622CED57E00C6BDC5 /* Queue.hpp */,
+				F7ACB19822D05D4200C6BDC5 /* AvlTree.cpp */,
+				F7ACB19922D05D4200C6BDC5 /* AvlTree.hpp */,
+				F7ACB19B22D05E3000C6BDC5 /* BinarySearchTree.cpp */,
+				F7ACB19C22D05E3000C6BDC5 /* BinarySearchTree.hpp */,
 			);
 			path = DS;
 			sourceTree = "<group>";
@@ -138,11 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7ACB19D22D05E3000C6BDC5 /* BinarySearchTree.cpp in Sources */,
 				F7ACB19422CC95AB00C6BDC5 /* Stack.cpp in Sources */,
 				F7479DAC22CB469100E49492 /* LinkedList.cpp in Sources */,
 				F733F61E22CB464700BFF289 /* main.cpp in Sources */,
 				F7ACB19722CED57E00C6BDC5 /* Queue.cpp in Sources */,
 				F7ACB19122CC861500C6BDC5 /* BinaryTree.cpp in Sources */,
+				F7ACB19A22D05D4200C6BDC5 /* AvlTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
